@@ -1,14 +1,15 @@
 import { useEffect } from 'react'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import LogoTitle from '../../assets/images/logo-s.png'
+import LogoTitle from '../../assets/images/logo-s-old.png'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
+import Logo from './Logo'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const name = ' Haythem'
-  const job = 'web developer'
+  const job = 'oftware/Web developer'
 
   const nameArray = name.split('')
   const jobArray = job.split('')
@@ -35,6 +36,7 @@ const Home = () => {
             idx={15}
           />
           <br />
+          <img src={LogoTitle} alt="developer" />
           <AnimatedLetters
             letterClass={letterClass}
             strArray={jobArray}
@@ -46,6 +48,7 @@ const Home = () => {
           CONTACT ME
         </Link>
       </div>
+      <Logo />
     </div>
   )
 }
