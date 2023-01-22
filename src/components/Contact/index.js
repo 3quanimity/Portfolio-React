@@ -90,21 +90,27 @@ const Contact = () => {
             </form>
           </div>
         </div>
+
+        {/* Map Info  */}
         <div className="info-map">
-          Slobodan Gajić,
+          Haythem lives here, come over for a cup of coffee 😊 <br />
           <br />
-          Serbia,
+          Tunis, Tunisia
           <br />
-          Branka RadiČevića 19, 22000 <br />
-          Sremska Mitrovica <br />
-          <br />
-          <span>freelancerslobodan@gmail.com</span>
+          <span>bendrissiahaythem@gmail.com</span>
         </div>
+
+        {/* Map */}
         <div className="map-wrap">
-          <MapContainer center={[44.96366, 19.61045]} zoom={13}>
+          <MapContainer
+            center={[36.80023863412861, 10.186144344705701]}
+            zoom={5}
+          >
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[44.96366, 19.61045]}>
-              <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
+            <Marker position={[36.80023863412861, 10.186144344705701]}>
+              <Popup>
+                Haythem lives here, come over for a cup of coffee 😊
+              </Popup>
             </Marker>
           </MapContainer>
         </div>

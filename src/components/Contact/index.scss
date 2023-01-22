@@ -92,7 +92,7 @@
 
 .info-map {
   position: absolute;
-  background: #000;
+  background: rgba(0, 0, 0, 0.85);
   top: 50px;
   right: 30%;
   z-index: 999999;
@@ -108,10 +108,9 @@
 
   span {
     font-size: 16px;
-
-    span {
-      color: #ffd700;
-    }
+    display: block;
+    padding-top: 20px;
+    color: #ffd700;
   }
 }
 
