@@ -30,11 +30,13 @@ const Contact = () => {
       )
       .then(
         () => {
-          alert('Message successfully sent!')
+          alert(
+            'Your Message was successfully sent!🤙 Thank you for reaching out! 🙏'
+          )
           window.location.reload(false)
         },
         () => {
-          alert('Failed to send the message, please try again')
+          alert("Oops, that's be embarassing, something went wrong! 😅")
         }
       )
   }
