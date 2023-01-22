@@ -11,8 +11,8 @@ const Layout = () => {
         <Outlet />
         <span className="tags bottom-tags">
           &lt;/body&gt;
-          <br />
-          <span className="tags bottom-tags">&lt;/html&gt;</span>
+          {/* <br />
+          <span className="tags bottom-tags">&lt;/html&gt;</span> */}
         </span>
       </div>
     </div>
