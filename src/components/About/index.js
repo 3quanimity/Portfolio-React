@@ -17,7 +17,7 @@ const About = () => {
   const aboutText = 'About me'.split('')
 
   useEffect(() => {
-    return setTimeout(() => {
+    setTimeout(() => {
       setLetterClass('text-animate-hover')
     }, 3000)
   }, [])
