@@ -4,12 +4,7 @@ import LogoS from '../../assets/images/logo-s.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
-import {
-  faGithub,
-  faLinkedin,
-  faSkype,
-  faYoutube,
-} from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => (
   <div className="nav-bar">
@@ -60,28 +55,6 @@ const Sidebar = () => (
         >
           <FontAwesomeIcon
             icon={faGithub}
-            color="#4d4d4e"
-            className="anchor-icon"
-          />
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://www.youtube.com/channel/UCoBKCo-JqN4VKvARojqzP1A"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <FontAwesomeIcon
-            icon={faYoutube}
-            color="#4d4d4e"
-            className="anchor-icon"
-          />
-        </a>
-      </li>
-      <li>
-        <a href="skype:live:myUserNameHere" rel="noreferrer" target="_blank">
-          <FontAwesomeIcon
-            icon={faSkype}
             color="#4d4d4e"
             className="anchor-icon"
           />
