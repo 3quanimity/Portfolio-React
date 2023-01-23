@@ -16,6 +16,7 @@
       margin: 8px auto;
       width: 48px;
       height: auto;
+      border-radius: 50%;
 
       &.sub-logo {
         width: 50px;
@@ -93,6 +94,7 @@
     a.portfolio-link {
       &:after {
         content: 'PORTFOLIO';
+        font-size: 0.7rem;
       }
     }
 
