@@ -40,7 +40,10 @@
 
 .container.contact-page,
 .container.portfolio-page,
-.container.about-page {
+.container.about-page,
+.container.home-page .name > span:nth-child(1) {
+  color: #ffd700;
+
   .text-zone {
     position: absolute;
     left: 10%;

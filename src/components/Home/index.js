@@ -32,11 +32,13 @@ const Home = () => {
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m</span>
             {/* <img src={LogoTitle} alt="developer" /> */}
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={nameArray}
-              idx={15}
-            />
+            <span className="name">
+              <AnimatedLetters
+                letterClass={letterClass}
+                strArray={nameArray}
+                idx={15}
+              />
+            </span>
             <br />
             {/* <img src={LogoTitle} alt="developer" /> */}
             <AnimatedLetters
@@ -45,7 +47,7 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          {/* <h2>Frontend Developer / Gamer / Astronaut</h2> */}
+          <h2>Lo-Fi Lover / Gamer / ...and Aspiring Astronaut</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
