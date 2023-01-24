@@ -1,5 +1,3 @@
-# TODO
+# Portfolio-React
 
-- update main page logo
-- add a projects page
-- update useEffects to clear the timer
+![Portfolio](https://s9.gifyu.com/images/chrome-capture-2023-0-24.gif)
