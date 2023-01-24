@@ -54,7 +54,7 @@ const Contact = () => {
           </h1>
           <p>
             Opportunities, requests or questions, don't hesitate to contact me
-            using the below form.
+            using the below form. (Yes, It works! 🧙🏼‍♂️)
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>

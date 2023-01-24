@@ -19,6 +19,16 @@
   font-family: 'La Belle Aurore', cursive;
 }
 
+mark {
+  // background-color: #ffd700;
+  // color: #022c43;
+  background-color: #022c43;
+  color: #ffd700;
+  padding: 0.08em;
+
+  // border-radius: 0.2em;
+}
+
 .bottom-tag-html {
   margin-left: -20px;
 }
@@ -98,7 +108,7 @@
   }
 
   p {
-    font-size: 13px;
+    font-size: 24px;
     color: #fff;
     font-family: sans-serif;
     font-weight: 300;

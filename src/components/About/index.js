@@ -35,17 +35,22 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a very ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
-          </p>
-          <p align="LEFT">
-            I'm quiet confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+            I'm a <mark>Self-Taught Developer</mark>, originally a
+            graduated&nbsp;
+            <mark>Agronomic Engineer</mark> with{' '}
+            <mark>5 years Forensic Entomology PhD studies</mark>.
           </p>
           <p>
-            If I need to define myself in one sentence that would be a
-            adventurous soul, survivor, and tech enthusiast!!!
+            I've been professionally occupying the post of{' '}
+            <mark>Frontend Software Developer</mark> with{' '}
+            <mark>VERMEG for Banking & Insurance</mark> for the past{' '}
+            <mark>~3 yrs</mark>. Fell in love with the JavaScript ecosystem,
+            which only amplified my geekiness & passion for learning.
+          </p>
+          <p align="LEFT">
+            I'm looking for a Frontend position, and I'm open to learning and
+            trying new technologies, even though I'm experienced in{' '}
+            <mark>Angular</mark> and still love <mark>React</mark>.
           </p>
         </div>
 
