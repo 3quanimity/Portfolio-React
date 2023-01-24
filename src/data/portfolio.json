@@ -7,15 +7,21 @@
       "url": "https://github.com/3quanimity/Modern-React-UI-UX-GPT-3"
     },
     {
-      "cover": "/portfolio/1/one.png",
-      "title": "One",
-      "description": "React, JSX, SCSS",
+      "cover": "/portfolio/1/coming-soon.webp",
+      "title": "Work in progress",
+      "description": "Angular, TypeScript, SCSS",
       "url": "https://www.google.com/"
     },
     {
-      "cover": "/portfolio/1/one.png",
-      "title": "One",
-      "description": "React, JSX, SCSS",
+      "cover": "/portfolio/1/coming-soon.webp",
+      "title": "Work in progress",
+      "description": "Angular, TypeScript, SCSS",
+      "url": "https://www.google.com/"
+    },
+    {
+      "cover": "/portfolio/1/coming-soon.webp",
+      "title": "Work in progress",
+      "description": "Angular, TypeScript, SCSS",
       "url": "https://www.google.com/"
     }
   ]
