@@ -119,13 +119,14 @@
       a {
         padding: 7px 0;
         display: block;
-        font-size: 15px;
+        font-size: 22px;
         line-height: 16px;
         color: #4d4d4e;
       }
 
       &:hover {
         .anchor-icon {
+          font-size: 25px;
           color: #ffd700;
         }
       }
